@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #77ceda;
+  width: 100%;
+}
+
+header {
+  text-align: center;
+  font-style: italic;
+}
+table {
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+table,
+td,
+th {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+th {
+  padding: 12px 14px;
+  font-weight: bolder;
+}
+.gaming,
+#turn {
+  padding: 10px 0px;
+  text-align: center;
+}
+.button {
+  margin-top: 10px;
+  background-color: rgb(228, 231, 89);
+  margin-left: 15px;
+  margin-right: 15px;
+  border: none;
+  border-radius: 0.8rem;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+}

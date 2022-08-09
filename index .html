@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRY YOUR LUCK</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h2>TRY YOUR LUCK</h2>
+        <h3 id="congo"></h3>
+    </header>
+    <main>
+        <div class="container">
+            <table width="100%" height="100%">
+                <tr>
+                    <th class="tablehead">BOX Number</th>
+                    <th class="tablehead">Player 1</th>
+                    <th class="tablehead">Player 2</th>
+                </tr>
+                <tr class="row1">
+                    <td class="R1" id="1">1</td>
+                    <td class="R1"><canvas class="mycanvas" id="E11"></canvas></td>
+                    <td class="R1"><canvas class="mycanvas" id="E12"></canvas></td>
+                </tr>
+                <tr class="row2">
+                    <td class="R2" id="2">2</td>
+                    <td class="R2"><canvas class="mycanvas" id="E21"></canvas></td>
+                    <td class="R2"><canvas class="mycanvas" id="E22"></canvas></td>
+                </tr>
+                <tr class="row3">
+                    <td class="R3" id="3">3</td>
+                    <td class="R3"><canvas class="mycanvas" id="E31"></canvas></td>
+                    <td class="R3"><canvas class="mycanvas" id="E32"></canvas></td>
+                </tr>
+                <tr class="row4">
+                    <td class="R4" id="4">4</td>
+                    <td class="R4"><canvas class="mycanvas" id="E41"></canvas></td>
+                    <td class="R4"><canvas class="mycanvas" id="E42"></canvas></td>
+                </tr>
+                <tr class="row5">
+                    <td class="R5" id="5">5</td>
+                    <td class="R5"><canvas class="mycanvas" id="E51"></canvas></td>
+                    <td class="R5"><canvas class="mycanvas" id="E52"></canvas></td>
+                </tr>
+            </table>
+        </div>
+        <div class="gaming">
+            <button class="button" id="tossbtn">Toss The Game</button>
+            <h4 id="turn">Turn : </h4>
+            <div class="generate">
+                <h4>Generate A Number: <h4 id="randomNum">0</h4></h4>
+                <button class="button"id="generatebtn">Generate</button>
+                <button class="button" id="resetbtn" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </main>
+    
+    <h3 id="display" class="input">Number of Times Button Pressed</h3>
+    <footer>Weaved by &#128375</footer>
+</body>
+<script src="script.js"></script>
+</html>
